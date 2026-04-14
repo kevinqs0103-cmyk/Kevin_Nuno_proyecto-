@@ -46,6 +46,11 @@ public class Persona {
         this.dni = dni;
     }
 
+    public int calcularEdad(LocalDate fecha_nacimiento) {
+        return Period.between(fechaNacimiento, LocalDate.now()).getYears();
+    }
+
+
     @java.lang.Override
     public java.lang.String toString() {
         return "Persona{" +
