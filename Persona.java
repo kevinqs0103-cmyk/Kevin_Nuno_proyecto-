@@ -50,6 +50,10 @@ public class Persona {
         return Period.between(fechaNacimiento, LocalDate.now()).getYears();
     }
 
+    public boolean esMayorDeEdad(LocalDate fecha_nacimiento) {
+        return calcularEdad(fecha_acimiento) >= 18;
+    }
+
 
     @java.lang.Override
     public java.lang.String toString() {
