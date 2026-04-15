@@ -3,8 +3,10 @@ public class Main {
     }
     
 public static void bienvenida(){
-    System.out.print("");
+    System.out.print("Bienvenido");
 }
+public static void mostrartodos(){
 
+}
 
 }
